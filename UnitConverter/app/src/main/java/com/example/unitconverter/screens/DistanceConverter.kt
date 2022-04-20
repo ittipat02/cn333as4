@@ -41,7 +41,7 @@ fun DistanceConverter() {
             ""
         else
             "$temp${
-                if (scale.value == R.string.meter)
+                if (scale.value == R.string.mile)
                     strMeter
                 else strMile
             }"
