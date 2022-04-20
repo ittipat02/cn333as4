@@ -41,7 +41,7 @@ fun WeightConverter() {
             ""
         else
             "$temp${
-                if (scale.value == R.string.pound)
+                if (scale.value == R.string.kilogram)
                     strPound
                 else strKilogram
             }"
